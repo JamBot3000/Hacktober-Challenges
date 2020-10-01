@@ -1,0 +1,14 @@
+{
+  "name": "dice_roller_bot",
+  "version": "1.0.0",
+  "description": "A dice roller discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Guilherme Oliveira Casagrande",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
