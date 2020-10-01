@@ -1,0 +1,28 @@
+{
+  "name": "discord_bot_hacktober",
+  "version": "1.0.0",
+  "description": "Simple bot that replies to your messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aljazmedic/Hacktober-Challenges.git"
+  },
+  "keywords": [
+    "discord.js",
+    "node"
+  ],
+  "author": "aljazmedic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aljazmedic/Hacktober-Challenges/issues"
+  },
+  "homepage": "https://github.com/aljazmedic/Hacktober-Challenges#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
