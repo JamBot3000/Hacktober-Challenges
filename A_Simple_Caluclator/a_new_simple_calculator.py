@@ -1,4 +1,4 @@
-#This simple calculator, calculates with the fiur basic operators, Addition "+",
+#This simple calculator, calculates with the four basic operators, Addition "+",
 # Subtraction "-", Multiplication "*" and Division "/"
 
 num1 = float(input ("enter your first number: "))
