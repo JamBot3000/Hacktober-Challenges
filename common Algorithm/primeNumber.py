@@ -1,4 +1,4 @@
-#Outputting array of prime number 
+#Outputting array of prime number
 n = 35
 def solution(n):
     prime_nums = []
