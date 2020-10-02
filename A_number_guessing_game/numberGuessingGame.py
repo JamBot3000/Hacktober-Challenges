@@ -38,7 +38,3 @@ while(True):
 if(numGuessed == False):                            #if the player is not able to guess the correct number print appropriate message
     print("Sorry you didn't get it.")
     print("Better luck next time.")
-        
-              
-
-
