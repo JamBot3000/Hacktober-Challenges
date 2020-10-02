@@ -13,6 +13,9 @@ elif op == "-":
 elif op == "*":
     print(num1 * num2)
 elif op == "/":
+    if num2 == 0:
+        print("denominator can't be zero")
+        quit()
     print(num1 / num2)
 else:
     print("invalid operator")
