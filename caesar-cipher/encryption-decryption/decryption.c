@@ -6,7 +6,7 @@ void main()
     char data[100] = "";
     char encrypt[100] = "";
     int key;
-    printf("Enter data to encrypt: ");
+    printf("Enter data to decrypt: ");
     gets(data);
     printf("Enter key: ");
     scanf("%d", &key);
@@ -21,6 +21,6 @@ void main()
                 encrypt[i] = data[i] + 26 - key;
         }
     }
-    printf("Encrypted Data: ");
+    printf("Decrypted Data: ");
     puts(encrypt);
 }
