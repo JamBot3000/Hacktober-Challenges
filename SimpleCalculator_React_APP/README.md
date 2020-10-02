@@ -1,8 +1,4 @@
-<p align="center">
-    
-        <img src="https://github.com/AyushRajSharma/Hacktober-Challenges/blob/main/SimpleCalculator_React_APP/simple_calc_react_app.png" width="30%">
-    
-</p>
+
 
 <h1 align="center">Simple Calculator React App</h1>
 
