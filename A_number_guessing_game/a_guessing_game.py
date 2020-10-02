@@ -1,22 +1,44 @@
 #A number guessing game
 #we created 5 variables
 
-secret_word = "5"
-guess = "what the user guesses"
-guess_count = 0 #tells the user number of guess he has
-guess_limit = 3 #tells the user how many times he could guess
-out_of_guesses = False
+import random
+import math
+# Taking Inputs
+lower = int(input("Emter Lower bound:- ")) 
 
-#out of guesses is a boolean, we set it to either true or
-# false but for the sake of ths program we set it as false
+# Taking Inputs
+upper = int(input("Enter Upper bound:- ")) 
 
-while guess != secret_word and not (out_of_guesses):
-    if guess_count < guess_limit:
-        guess = input("enter guess number: ")
-        guess_count = guess_count + 1
-    else:
-        out_of_guesses = True
+# generating random number between
+# the lower and upper
+x = random.randint(lower, upper)
+print("\n\tYou've only ", round(math.log(upper - lower + 1, 2))," chances to guess the integer!\n")
 
-if out_of_guesses:
-    print("Out of guesses You lose!")
-else: print("you win")
+# Initializing the number of guesses.
+count = 0
+
+# for calculation of minimum number of
+# guesses depends upon range
+while count < math.log(upper - lower + 1, 2):
+	count += 1
+	
+	# taking guessing number as input
+	guess = int(input("Guess a number:- ")) 
+	
+	# Condition testing
+	if x == guess: 
+	print("Congratulations you did it in ", count, " try")
+	# Once guessed, loop will break 
+	break
+	elif x > guess:
+	print("You guessed too small!")
+	elif x < guess:
+	print("You Guessed too high!")
+
+# If Guessing is more than required guesses, 
+# shows this output.
+if count >= math.log(upper - lower + 1, 2):
+print("\nThe number is %d"%x)
+print("\tBetter Luck Next time!")
+
+# Better to use This source Code on pycharm!
