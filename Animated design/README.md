@@ -4,4 +4,4 @@ On continuous input of mouse, you will see rotating circles.
 
 OUTPUT:-
 
-![Screenshot](output_pygame%20design.png)
+![Screenshot](output_pygame_design.PNG)
