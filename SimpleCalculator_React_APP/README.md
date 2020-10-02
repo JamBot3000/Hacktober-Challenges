@@ -1,6 +1,6 @@
 <p align="center">
     
-        <img src="#" width="30%">
+        <img src="https://github.com/AyushRajSharma/Hacktober-Challenges/blob/main/SimpleCalculator_React_APP/simple_calc_react_app.png" width="30%">
     
 </p>
 
@@ -10,8 +10,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+after cloning Repository,
+In the project directory, you can run(I assume that npm is already installed):
+### `npm install`
 
-In the project directory, you can run:
+To install all the node_module required for this app.
 
 ### `npm start`
 
