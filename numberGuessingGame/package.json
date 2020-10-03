@@ -1,0 +1,14 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "A number guessing game on the command line!",
+  "main": "game.js",
+  "scripts": {
+    "start": "node game.js"
+  },
+  "author": "Guilherme Oliveira Casagrande",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
