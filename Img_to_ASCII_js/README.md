@@ -2,6 +2,8 @@
 This code makes any image to ASCII art  
 by @Mkefs
 
+![Ascii](docs/Screenshot.jpg)
+
 It uses [GraphicsMagick](http://www.graphicsmagick.org/) to work, so you need to install it if you doesnt't have it yet.
 
 Then just run:
