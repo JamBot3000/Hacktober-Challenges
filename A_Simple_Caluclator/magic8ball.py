@@ -23,8 +23,7 @@ respond = ["You are absolutely not sure of this",
 
 import random
 import time
-
-  
+ 
 def magic():
     print('Hi, enter your question:')
     quest=input()
@@ -33,8 +32,6 @@ def magic():
     result=random.choice(respond)
     print (result,'\n')
     replay()
-
-  
 
 def replay():
     print('Would you like to ask another question? (Y/N)')
@@ -46,7 +43,6 @@ def replay():
         print('Bye, see you soon')
     else:
         print('You have entered a wrong input')
-            
 magic()
         
 
