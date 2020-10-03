@@ -1,0 +1,91 @@
+main
+{
+    background-color: rgb(208, 253, 253);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 'cabeca corpo';
+}
+
+#cabeca
+{
+    grid-area: cabeca;
+}
+
+#cabeca img
+{
+    left: 20%;
+    position: fixed;
+    top: 35%;
+    height: 35%;
+    z-index: 5;
+}
+
+#corpo
+{
+    position: relative;
+    grid-area: corpo;
+} 
+
+#imgCorpo
+{
+    z-index: -1;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50%;
+} 
+
+#inter
+{
+    top: 50%;
+    transform: translate(175%, -55%);
+    position: fixed;
+    z-index: 3;
+    width: 15%;
+}
+
+#land
+{
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(0, -50%);
+    position: fixed;
+}
+
+#sure {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 69;
+    display: grid;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#sure button {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+#land {
+    display: none;
+}
+main 
+{
+    display: grid;
+}
