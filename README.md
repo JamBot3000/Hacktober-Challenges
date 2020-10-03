@@ -1,6 +1,6 @@
 # Hacktober-Challenges
 
-A collection of issues for begginers for Hacktoberfest challenges! I review PR's daily!
+A collection of issues for beginners for Hacktoberfest challenges! I review PR's daily!
 
 NOTE: Please tell me at least one thing you learned from doing this in your PR comment! AND NO REUSING OLD CODE!!!!
 
