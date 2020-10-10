@@ -34,6 +34,7 @@ while(input_value!="N"):
     input_value=input()
 
 
+#EXAMPLE
 #Message for Decryption:YADLUTAHBPXU
 #Key:MATH
 #Decrypted Text:MAKEITHAPPEN
