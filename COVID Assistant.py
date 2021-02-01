@@ -19,6 +19,9 @@ timestamp=regex.findall(str(ressoup))
 
 #starts printing data
 print('COVID19 Cases in INDIA Highlights')
+
+print('\n')                                               #Some new line required it will make the output look better.
+                                                
 print('*********************************', end='')
 print('\n')
 print('Total Confirmed Cases: ' + str(int(listres[0].getText())+int(listres1[0].getText())+int(listres2[0].getText())))
@@ -40,7 +43,7 @@ body=[]
 lis=['1']
 i=1
 while  i<165:
-    finalsoup=bs4.BeautifulSoup(final[i], 'lxml')
+    finalsoup = bs4.BeautifulSoup(final[i], 'lxml')
     if i%5!=0:
         lis.append(finalsoup.getText())
     else:
@@ -50,7 +53,7 @@ while  i<165:
     i=i+1
 
 #prints date and time of last updated.
-print(tabulate(body, headers=headers), end='')
+print(tabulate(body, headers=headers))                      #no need for end = ""
 print('\n')
 print('Source: MOHFW')
 print('Last Updated: ', end='')
