@@ -1,5 +1,13 @@
 #This simple calculator, calculates with the four basic operators, Addition "+",
 # Subtraction "-", Multiplication "*" and Division "/"
+
+
+response=['Welcome to smart calculator','My name is MONTY', 
+		'Thanks for enjoy with me ','Sorry ,this is beyond my ability'] 
+
+print('--------------'+response[0]+'------------') 
+
+#A good title to start.
 num1 = float(input ("enter your first number: "))
 #float actually converted whatever the user inputed from a string to a number, either integer or decimal
 op = input ("enter your operator ")
@@ -19,9 +27,11 @@ elif op == "/":
 else:
     print("invalid operator")
 
-# main python proghram 
-response=['Welcome to smart calculator','My name is MONTY', 
-		'Thanks for enjoy with me ','Sorry ,this is beyond my ability'] 
+# main python proghram                                       
+#Execute it before asking values .
+
+#response=['Welcome to smart calculator','My name is MONTY', 
+	#	'Thanks for enjoy with me ','Sorry ,this is beyond my ability'] 
 
 # fetching tokens from the text command 
 def extract_from_text(text): 
@@ -35,7 +45,8 @@ def extract_from_text(text):
 
 # calculating LCM 
 def lcm(a,b): 
-	L=a if a>b else b 
+	L=a 
+	if a>b else b 
 	while L<=a*b: 
 		if L%a==0 and L%b==0: 
 			return L 
@@ -85,14 +96,15 @@ def sorry():
 operations={'ADD':add,'PLUS':add,'SUM':add,'ADDITION':add, 
 			'SUB':sub,'SUBTRACT':sub, 'MINUS':sub, 
 			'DIFFERENCE':sub,'LCM':lcm,'HCF':hcf, 
-			'PRODUCT':mul, 'MULTIPLY':mul,'MULTIPLICATION':mul, 
+			'PRODUCT':mul, 'MULTIPLY':mul,'MULTIPLICATION':mul,       
 			'DIVISION':div,'MOD':mod,'REMANDER'
 			:mod,'MODULAS':mod} 
 
 # commands 
 commands={'NAME':myname,'EXIT':end,'END':end,'CLOSE':end} 
 		
-print('--------------'+response[0]+'------------') 
+#print('--------------'+response[0]+'------------') 
+
 print('--------------'+response[1]+'--------------------') 
 
 
