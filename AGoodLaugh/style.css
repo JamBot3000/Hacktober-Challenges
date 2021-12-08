@@ -26,6 +26,89 @@ main
     z-index: 5;
 }
 
+.color {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    animation: move 3s ease-in;
+    color: orangered;
+}
+@keyframes move{
+    0% { transform: none; color: red;}
+    5% {color: green;}
+    10% {
+        color: yellow;
+    }
+    15% {
+        color: purple;
+    }
+    20% {
+        color: blue;
+    }
+
+    25% {
+        color: orangered;
+    }
+    30% {
+        color: lightskyblue;
+    }
+    35% {
+        color: hotpink;
+    }
+    40% {
+        color: rebeccapurple;
+    }
+        45% {
+            color: yellow;
+        }
+
+        50% {
+            color: purple;
+        }
+
+        55% {
+            color: blue;
+        }
+
+        60% {
+            color: orangered;
+        }
+
+        65% {
+            color: lightskyblue;
+        }
+
+        70% {
+            color: hotpink;
+        }
+
+        75% {
+            color: rebeccapurple;
+        }
+
+        80% {
+            color: yellow;
+        }
+
+        85% {
+            color: purple;
+        }
+
+        90% {
+            color: blue;
+        }
+
+        95% {
+            color: orangered;
+        }
+    100% {
+        transform: rotate(1080deg);
+        color: orangered;
+    }
+}
+
 #corpo
 {
     position: relative;
